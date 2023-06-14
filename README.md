@@ -37,7 +37,7 @@ Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
 F1:
-
+```
 module ff(a,b,c,d,f1);
 
 input a,b,c,d;
@@ -47,9 +47,9 @@ output f1;
 assign f1 = (~b&~d) | (~a&b&d) | (a&b&~c);
 
 endmodule
-
+```
 F2:
-
+```
 module de (w,x,y,z,f2);
 
 input w,x,y,z;
@@ -58,8 +58,9 @@ output f2;
 
 assign f2 = (x&y)|(w&y)|(~y&z);
 
-endmodule Developed by: A.DIVYA RegisterNumber: 212222230034 */
-
+endmodule
+Developed by: S.SIVABALAN RegisterNumber: 212222240100*/
+```
 ## RTL realization
 F1
 ![243106713-029331d5-e82d-4b3e-9c0a-58de6af1fb76](https://github.com/sivabalan28/Experiment--02-Implementation-of-combinational-logic-/assets/113497347/05d84403-ac46-4219-ae8a-307694dfb201)
